@@ -1,0 +1,108 @@
+@media screen and (max-width: 450px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        width: 400px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding-left: 30px;
+        padding-top: 30px;
+        width: 400px;
+    }
+    .header img {
+        width: 200px;
+        height: 120px;
+    }
+    .header .menu {
+        display: none;
+    }
+    .main_photo img {
+        width: 1200px;
+        height: 1000px;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+    .title p {
+        font-size: 150px;
+        width: 1000px;
+        margin-bottom: 200px;
+    }
+    .information p {
+        width: 1200px;
+        font-size: 65px;
+    }
+    .information button {
+        font-size: 50px;
+        width: 600px;
+        height: 100px;
+        margin-top: 30px;
+    }
+    .stuff {
+        width: 1200px;
+        height: 1600px;
+        padding: 30px 20px;
+        padding: 20px;
+        margin-bottom: 150px;
+    }
+    
+    .stuff h1 {
+        font-size: 150px;
+    }
+    
+    .stuff .title_stuff {
+        font-size: 82px;
+        width: 1000px;
+    }
+    
+    .stuff .info_stuff {
+        color: hsl(36, 100%, 99%);
+        font-size: 62px;
+        width: 1000px;
+    }
+    
+    .hr_stuff {
+        border: 1px solid grey;
+        width: 1100px;
+        margin: 50px 0px ;
+    }
+    .profile_stuff {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+    .profile_stuff img {
+        width: 300px;
+        margin-bottom: 100px;
+    }
+    
+    .profile_stuff .profile-1, .profile-2, .profile-3 {
+        display: grid;
+        grid-template-columns: 400px 300px;
+    }
+    
+    .profile_stuff h1 {
+        color: hsl(5, 85%, 63%);
+        margin-bottom: 5px;
+        font-size: 150px;
+    }
+    
+    .profile_stuff .title_profile {
+        font-weight: 800px;
+        font-size: 50px;
+        width: 850px;
+    }
+    
+    .profile_stuff .about_profile {
+        width: 825px;
+        font-size: 55px;
+        color: hsl(236, 13%, 42%);
+    }
+}
